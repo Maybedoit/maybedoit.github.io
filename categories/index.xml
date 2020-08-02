@@ -6,9 +6,19 @@
     <description>Recent content in Categories on 王翔宇的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 02 Aug 2020 22:45:14 +0800</lastBuildDate>
     
 	<atom:link href="maybedoit.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python学习</title>
+      <link>maybedoit.github.io/categories/python%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sun, 02 Aug 2020 22:45:14 +0800</pubDate>
+      
+      <guid>maybedoit.github.io/categories/python%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

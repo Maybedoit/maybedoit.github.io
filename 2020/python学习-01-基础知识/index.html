@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="王翔宇">
+  
+  
+  
+  
+  
+  <link rel="canonical" href="maybedoit.github.io/2020/python%E5%AD%A6%E4%B9%A0-01-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Python学习 01 基础知识 | 王翔宇的博客
+       
+  </title>
+  <meta name="title" content="Python学习 01 基础知识 | 王翔宇的博客">
+    
+  
+  <link rel="stylesheet" href="/maybedoit.github.io/font/iconfont.css">
+  <link rel="stylesheet" href="/maybedoit.github.io/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "maybedoit.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Python学习 01 基础知识",
+    "headline" : "Python学习 01 基础知识",
+    "description" : "[TOC]\n一 基础知识 1 第一个Python程序 print(\u0026#39;Hello World\u0026#39;) 2 安装Python 2.1 Linux安装Python 2.2 Mac安装Python 2.3 Windows安装Python    打开官网 \u0026lt;www.python.org\u0026gt; 下载相应的Python的版本    其余百度自学    2.4 测试安装是否成功 Windows下windows \u0026ndash;\u0026gt; 运行 \u0026ndash;\u0026gt; 输入cmd ，然后回车，弹出cmd程序，输入\tpython,如果能进入交互环境 ，代表安装成功。\n2.5 运行Python程序  交互式界面运行   脚本运行\n把程序写进文件中 在cmd中运行如下代码\n  3 注释 3.1 单行注释 ‘’#‘’ 使用 “ # ” 可以注释单行代码\n# 这是注释 print(\u0026#39;你好\u0026#39;) # 你好 3.2 多行注释 使用三个引号可以进行多行注释\n\u0026#34;\u0026#34;\u0026#34; 这是一段注释 \u0026#34;\u0026#34;\u0026#34; \u0026#39;\u0026#39;\u0026#39; 这个也可以是注释 \u0026#39;\u0026#39;\u0026#39;  一般使用三个双引号作为注释，三个单引号做多行字符串使用 只需要为自己觉得重要或不好理解的部分加注释即可 注释可以用中文或英文，但不要用拼音",
+    "inLanguage" : "en-us",
+    "author" : "王翔宇",
+    "creator" : "王翔宇",
+    "publisher": "王翔宇",
+    "accountablePerson" : "王翔宇",
+    "copyrightHolder" : "王翔宇",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-08-02 22:45:14 \u002b0800 CST",
+    "dateModified" : "2020-08-02 22:45:14 \u002b0800 CST",
+    "url" : "maybedoit.github.io\/2020\/python%E5%AD%A6%E4%B9%A0-01-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86\/",
+    "wordCount" : "139",
+    "keywords" : [ "Python", "王翔宇的博客"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="maybedoit.github.io">王翔宇的博客</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="maybedoit.github.io/posts" title="">博客</a>
+                
+                <a class="menu-item" href="maybedoit.github.io/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="maybedoit.github.io/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="maybedoit.github.io/about" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="maybedoit.github.io">王翔宇的博客</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="maybedoit.github.io/posts" title="">博客</a>
+                
+                <a class="menu-item" href="maybedoit.github.io/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="maybedoit.github.io/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="maybedoit.github.io/about" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Python学习 01 基础知识</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="maybedoit.github.io" rel="author">王翔宇</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2020-08-02 itemprop="datePublished">August 2, 2020</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="maybedoit.github.io/categories/python%E5%AD%A6%E4%B9%A0/"> Python学习 </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>[TOC]</p>
+<h1 id="一-基础知识">一 基础知识</h1>
+<h2 id="1-第一个python程序">1 第一个Python程序</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Hello World&#39;</span>)
+</code></pre></div><h2 id="2-安装python">2 安装Python</h2>
+<h3 id="21-linux安装python">2.1 Linux安装Python</h3>
+<h3 id="22-mac安装python">2.2 Mac安装Python</h3>
+<h3 id="23-windows安装python">2.3 Windows安装Python</h3>
+<ul>
+<li>
+<ol>
+<li>打开官网 &lt;www.python.org&gt; 下载相应的Python的版本</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>其余百度自学</li>
+</ol>
+</li>
+</ul>
+<h3 id="24-测试安装是否成功">2.4 测试安装是否成功</h3>
+<p>Windows下windows &ndash;&gt; 运行 &ndash;&gt; 输入cmd ，然后回车，弹出cmd程序，输入		python,如果能进入交互环境 ，代表安装成功。</p>
+<p><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --></p>
+<h3 id="25-运行python程序">2.5 运行Python程序</h3>
+<ol>
+<li>交互式界面运行</li>
+</ol>
+<p><!-- raw HTML omitted --></p>
+<ol start="2">
+<li>
+<p>脚本运行</p>
+<p><code>把程序写进文件中 在cmd中运行如下代码</code></p>
+<p><img src="G:%5C%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91%5Cmybolg%5Cstatic%5Cimages%5Cimg%5Cpy01img004.png" alt="py01img004"></p>
+</li>
+</ol>
+<h2 id="3-注释">3 注释</h2>
+<h3 id="31-单行注释-">3.1 单行注释 ‘’#‘’</h3>
+<p>使用 “ # ” 可以注释单行代码</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">	<span style="color:#75715e"># 这是注释</span>
+	<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;你好&#39;</span>) <span style="color:#75715e"># 你好</span>
+</code></pre></div><h3 id="32-多行注释">3.2 多行注释</h3>
+<p>使用三个引号可以进行多行注释</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">	<span style="color:#e6db74">&#34;&#34;&#34;
+</span><span style="color:#e6db74">	这是一段注释
+</span><span style="color:#e6db74">	&#34;&#34;&#34;</span>
+	<span style="color:#e6db74">&#39;&#39;&#39;
+</span><span style="color:#e6db74">	这个也可以是注释
+</span><span style="color:#e6db74">	&#39;&#39;&#39;</span>
+</code></pre></div><blockquote>
+<p>一般使用三个双引号作为注释，三个单引号做多行字符串使用
+只需要为自己觉得重要或不好理解的部分加注释即可
+注释可以用中文或英文，但不要用拼音</p>
+</blockquote>
+<h2 id="4-ide集成开发环境的使用">4 IDE(集成开发环境)的使用</h2>
+<h3 id="41-pycharm">4.1 PyCharm</h3>
+<p>一款强大的专为Python编程设计的软件</p>
+<blockquote>
+<p>功能强大，但启动速度慢
+请去官网下载专业版</p>
+</blockquote>
+<h3 id="42-vscode">4.2 Vscode</h3>
+<p>一款轻量级的、运行于 Mac OS X、Windows和 Linux 之上的，针对于编写现代 Web 和云应用的跨平台源代码编辑器。</p>
+<blockquote>
+<p>适合Python代码编写，简单、便捷、免费
+建议使用</p>
+</blockquote>
+<h2 id="5-python的文件头">5 Python的文件头</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">	<span style="color:#75715e">#!/usr/bin/env python</span>
+    <span style="color:#75715e"># -*- coding: utf-8 -*- </span>
+</code></pre></div><p>第一行以<code>#!</code>开头的代码指示的是Python编译器的位置，用于在 Linux 环境下直接运行<code>.py</code>文件
+第二行是指定代码用何种编码进行存储，此处使用utf-8编码</p>
+<h2 id="6-python介绍">6 Python介绍</h2>
+<h3 id="61-介绍">6.1 介绍</h3>
+<pre><code>python的创始人为吉多·范罗苏姆（Guido van Rossum）。1989年的圣诞节期间，Guido开始写能够解释Python语言语法的解释器。Python这个名字，来自Guido所挚爱的电视剧Monty Python’s Flying Circus。他希望这个新的叫做Python的语言，能符合他的理想：创造一种C和shell之间，功能全面，易学易用，可拓展的语言。
+</code></pre>
+<h3 id="62-python应用领域">6.2 Python应用领域</h3>
+<ul>
+<li>
+<ol>
+<li>WEB开发</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>网络编程</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>爬虫</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>云计算</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>人工智能</li>
+</ol>
+</li>
+<li>
+<ol start="6">
+<li>自动化运维</li>
+</ol>
+</li>
+<li>
+<ol start="7">
+<li>金融分析</li>
+</ol>
+</li>
+<li>
+<ol start="8">
+<li>科学运算</li>
+</ol>
+</li>
+<li>
+<ol start="9">
+<li>游戏开发</li>
+</ol>
+</li>
+</ul>
+<h3 id="63-python解释器种类">6.3 Python解释器种类</h3>
+<ul>
+<li>
+<ol>
+<li>CPython：CPython是使用最广且被的Python解释器。
+当我们从Python官方网站下载并安装好Python 后，我们就直接获得了一个官方版本的解释器：CPython。这个解释器是用C语言开发的，所以叫CPython。在命令行下运行python就是启动CPython解释器。</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>IPython
+IPython是基于CPython之上的一个交互式解释器，也就是说，IPython只是在交互方式上有所增强，但是执行Python代码的功能和CPython是完全一样的。好比很多国产浏览器虽然外观不同，但内核其实都是调用了IE。
+CPython用&raquo;&gt;作为提示符，而IPython用In [序号]:作为提示符。</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>PyPy
+PyPy是另一个Python解释器，它的目标是执行速度。PyPy采用JIT技术，对Python代码进行动态编译（注意不是解释），所以可以显著提高Python代码的执行速度。
+绝大部分Python代码都可以在PyPy下运行，但是PyPy和CPython有一些是不同的，这就导致相同的Python代码在两种解释器下执行可能会有不同的结果。如果你的代码要放到PyPy下执行，就需要了解PyPy和CPython的不同点。</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>Jython
+Jython是运行在Java平台上的Python解释器，可以直接把Python代码编译成Java字节码执行。</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>IronPython
+IronPython和Jython类似，只不过IronPython是运行在微软.Net平台上的Python解释器，可以直接把Python代码编译成.Net的字节码。</li>
+</ol>
+</li>
+</ul>
+<h3 id="64-python版本">6.4 Python版本</h3>
+<pre><code>大版本分为Python 2 与Python 3 
+但Python马上不进行更新了，所以选择Python 3 </code></pre>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>王翔宇 </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=maybedoit.github.io/2020/python%E5%AD%A6%E4%B9%A0-01-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/>maybedoit.github.io/2020/python%E5%AD%A6%E4%B9%A0-01-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="maybedoit.github.io/tags/python/">
+                    #Python</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="maybedoit.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="maybedoit.github.io">王翔宇</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/maybedoit.github.io/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

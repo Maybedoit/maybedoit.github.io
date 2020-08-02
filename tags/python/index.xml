@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on 王翔宇的博客</title>
+    <link>maybedoit.github.io/tags/python/</link>
+    <description>Recent content in Python on 王翔宇的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Aug 2020 22:45:14 +0800</lastBuildDate>
+    
+	<atom:link href="maybedoit.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python学习 01 基础知识</title>
+      <link>maybedoit.github.io/2020/python%E5%AD%A6%E4%B9%A0-01-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Sun, 02 Aug 2020 22:45:14 +0800</pubDate>
+      
+      <guid>maybedoit.github.io/2020/python%E5%AD%A6%E4%B9%A0-01-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <description>[TOC]
+一 基础知识 1 第一个Python程序 print(&amp;#39;Hello World&amp;#39;) 2 安装Python 2.1 Linux安装Python 2.2 Mac安装Python 2.3 Windows安装Python    打开官网 &amp;lt;www.python.org&amp;gt; 下载相应的Python的版本    其余百度自学    2.4 测试安装是否成功 Windows下windows &amp;ndash;&amp;gt; 运行 &amp;ndash;&amp;gt; 输入cmd ，然后回车，弹出cmd程序，输入	python,如果能进入交互环境 ，代表安装成功。
+2.5 运行Python程序  交互式界面运行   脚本运行
+把程序写进文件中 在cmd中运行如下代码
+  3 注释 3.1 单行注释 ‘’#‘’ 使用 “ # ” 可以注释单行代码
+# 这是注释 print(&amp;#39;你好&amp;#39;) # 你好 3.2 多行注释 使用三个引号可以进行多行注释
+&amp;#34;&amp;#34;&amp;#34; 这是一段注释 &amp;#34;&amp;#34;&amp;#34; &amp;#39;&amp;#39;&amp;#39; 这个也可以是注释 &amp;#39;&amp;#39;&amp;#39;  一般使用三个双引号作为注释，三个单引号做多行字符串使用 只需要为自己觉得重要或不好理解的部分加注释即可 注释可以用中文或英文，但不要用拼音</description>
+    </item>
+    
+  </channel>
+</rss>
